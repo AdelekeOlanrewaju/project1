@@ -1,0 +1,41 @@
+.realcontainer{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.realtwo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.realone >svg{
+    max-width: 100%;
+}
+.realtwo >svg{
+    max-width: 100%;
+}
+.realonetxt{
+    max-width: 445px;
+}
+.realonetxt >h1  {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F284F;    
+    max-width: 70%;
+    text-transform: capitalize;
+}
+.realonetxt >h2{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+}

@@ -1,0 +1,66 @@
+.form{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.formtext{
+    max-width: 461px;
+}
+.formtext >h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0070F0;
+    text-overflow: clip;
+    max-width: 90%;
+}
+.formtext >h2{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F284F;
+    text-overflow: clip;
+    max-width: 90%;
+}
+.formtext > h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+    text-overflow: clip;
+    max-width: 70%;
+}
+.formsection >img{
+    max-width: 100%;
+}
+.formsection{
+    display: flex;
+    max-width: 578px;
+    max-height: 690px;
+    border-radius: 16px;
+    gap: 16px;
+    overflow-y: visible;
+}
+.bluesection{
+    margin-top: -14%;
+    max-width: 100%;
+    background-color: #1F384F;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.bluesection >img{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,91 @@
+.herosection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.herotext{
+    width: 50%;
+    max-height: 422px;
+}
+.herotext > h2{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #0070F0;
+}
+.herotext >h1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.herotext > h3{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.maintext{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width:80% ;
+    padding-bottom: 5%;
+}
+.heroimg >img{
+    width: 50%;
+}
+.textbtn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 5%;
+}
+.download{
+    display: flex;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: #0070F0;
+    padding: 12px 24px 12px 24px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.demo{
+    display: flex;
+    border: none;
+    text-align: center;
+    padding: 12px 24px 12px 24px;
+    background-color: #3CBA79;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}

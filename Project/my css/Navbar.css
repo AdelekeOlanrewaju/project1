@@ -1,0 +1,70 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.links{
+    display: flex;
+    gap: 10%;
+}
+.links > select{
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+.links >select:hover{
+    opacity: 50%;
+}
+.btn > button{
+    display: flex;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 11px 20px 11px 20px;
+    background-color: #0070F0;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn > button:hover{
+    opacity: 50%;
+}
+.menu{
+    display: none;
+}
+.lnkz{
+    display: flex;
+    gap: 10%;
+}
+.lnkz > select{
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+.lnkz >select:hover{
+    opacity: 50%;
+}

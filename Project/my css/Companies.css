@@ -1,0 +1,60 @@
+.company{
+    background-color: rgb(200, 200, 221);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin-bottom: 1%;
+}
+.cmp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 5%;
+
+}
+.cmptext{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.company >h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.cmpbox{
+    max-width:350px;
+    gap: 24px;
+    text-align: center;
+}
+.cmpbox >h1{
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.cmpbox >h2{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.cmpbox > img{
+    margin: auto;
+}

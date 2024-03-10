@@ -1,0 +1,56 @@
+.faq{
+    display: flex;
+    gap: 32px;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #F5F0FF;
+}
+.faq >svg{
+    max-width: 100%;
+}
+.main-faq{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 5%;
+}
+.main-faq >h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F284F;
+    text-transform: uppercase;
+}
+.main-faq >select {
+    display: flex;
+    max-width: 493px;
+    color: #17181A;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #E1E8F0;
+}
+.main-faq >option{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.bluesec{
+    margin-top: -14%;
+    max-width: 100%;
+    background-color: #1F384F;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.bluesec >img{
+    display: flex;
+    align-items: center;
+}

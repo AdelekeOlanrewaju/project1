@@ -1,0 +1,63 @@
+.premium{
+    display: flex;
+    gap:32px;
+    align-items: center;
+    padding: 6%;
+    max-width: 100%;
+    background-color: gainsboro;
+}
+.premiumtext{
+    width: 50%;
+}
+.premiumtext >h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F284F;
+    text-overflow: clip;
+}
+.premiumtext >h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+    text-overflow: clip;
+    padding-top: 3%;
+}
+.premiumtext >h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+    text-overflow: clip;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.pre-btn >button{
+    width: 178px;
+    height:48px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 30px;
+    border: 1px;
+    gap: 10px;
+    background-color: #0070F0;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+.premiumimg >img{
+    max-width: 100%;
+}
